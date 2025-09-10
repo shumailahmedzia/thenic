@@ -139,6 +139,10 @@ body {
 
 /* NAV RESPONSIVE */
 @media (max-width: 1190px) {
+
+    .navbar{
+        position: relative;
+    }
     .right-nav {
         display: none;
     }
@@ -157,14 +161,15 @@ body {
         right: 0;
         overflow-y: auto;
         z-index: 2;
-        
+        position: absolute;
         
 
     }
 
     .cross {
+        position: absolute;
         display: none;
-        position: fixed;
+    
         top: 20px;
         right: 20px;
         z-index: 10000;
@@ -533,6 +538,10 @@ display: none;
     align-items: center;
   }
 
+  .section{
+    height: 200vh;
+  }
+
 
 }
 
@@ -702,7 +711,7 @@ display: none;
 
     .mission-holder{
 
-        min-height:110vh;
+        height:130vh;
     }
 
     .curvy-photo{
@@ -711,10 +720,7 @@ display: none;
         height: 400px;
     }
 
-    .mission-holder{
 
-        height: 100vh;
-    }
 
     .heading{
 
@@ -739,5 +745,25 @@ display: none;
     .mission-btn{
 
         padding: 5px 10px;
+    }
+}
+
+@media (max-width:420px){
+
+
+    .curvy-photo{
+
+        width: 300px;
+        height: 300px;
+    }
+
+    .image-tag{
+
+        font-size: 15px;
+    }
+
+    .mission-holder{
+
+        height: 150vh;
     }
 }
