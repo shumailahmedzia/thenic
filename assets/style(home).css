@@ -766,4 +766,9 @@ display: none;
 
         height: 150vh;
     }
+
+    .mission-content{
+
+        padding-top: 30px ;
+    }
 }
