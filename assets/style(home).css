@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -226,7 +228,6 @@ body {
     
     background-color: #0d6cac;
     margin: auto;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,6 +235,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 271px 0px;
 }
 
 .content{
@@ -399,13 +401,13 @@ display: none;
 }
 
 .content-2{
-    height: calc(65vh - 24px);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 186px;
     max-width: 1920px;
     margin: auto;
+    padding: 60px 186px ;
 
 }
 
@@ -519,14 +521,22 @@ display: none;
 /* RESPONSIVE */
 
 
+@media(max-width:1650px){
 
-@media (max-width:1100px) {
+
+    .mission-content{
+
+        padding-top: 50px;
+        
+    }
+}
+@media (max-width:1300px) {
 
   .content-2{
     flex-direction: column;
     align-items: center;
-    height: 150vh;
-    gap: 5px;
+    gap: 20px;
+    
   }
 
   .fb-card{
@@ -537,15 +547,25 @@ display: none;
 
     align-items: center;
   }
+  
+ .content-2{
 
-  .section{
-    height: 200vh;
-  }
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+  
+
 
 
 }
 
+@media (max-width:330px){
 
+    .fb{
+
+        font-size: 23px;
+    }
+}
 
 
 
@@ -555,7 +575,7 @@ display: none;
 
 .mission-holder{
     background-color: #0d6cac;
-    height: calc(96vh + 3px);
+    
     
 }
 
@@ -568,6 +588,8 @@ display: none;
     align-items: center;
     justify-content: center;
     gap: 160px;
+    padding-bottom: 78px;
+
 }
 
 .mission-left{
@@ -575,8 +597,9 @@ display: none;
     flex-direction: column;
     align-items: center;
     gap: 41.76px;
-    padding-bottom: 120px;
+    padding-top: 87px;
     padding-left: 70px;
+    padding-bottom: 221px;
 }
 
 .heading{
@@ -662,6 +685,7 @@ display: none;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 42px;
 }
 
 .image-tag{
@@ -700,19 +724,11 @@ display: none;
         
     }
 
-    .mission-holder{
-
-        height: 140vh;
-    }
 }
 
 @media (max-width:790px){
 
 
-    .mission-holder{
-
-        height:130vh;
-    }
 
     .curvy-photo{
 
@@ -741,12 +757,17 @@ display: none;
 
         font-size: 10px;
     }
-
+    
     .mission-btn{
-
+        
         padding: 5px 10px;
     }
+
+
 }
+
+
+
 
 @media (max-width:420px){
 
@@ -762,13 +783,511 @@ display: none;
         font-size: 15px;
     }
 
-    .mission-holder{
 
-        height: 150vh;
+
+}
+
+
+
+
+
+
+/* SECTION 3 */
+/* #################################### */
+
+.section-3{
+    background-color: #E8F2F8;
+    color: #0d6cac;
+}
+
+.container-3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 64px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+
+.sec-1{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.sec-1-head, .sec-2-head, .gallery{
+
+    font-weight: 700;
+    font-size: 33.6px;
+    line-height: 47.07px;
+    margin: 0;
+    padding-top: 15px;   
+}
+
+.ref{
+
+    line-height: 5px;
+}
+
+.verse{
+
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    line-height: 27.2px;
+    
+}
+
+.trnslte{
+
+    padding: 0px 590px;
+}
+
+.hadith{
+
+    line-height: 27.2px;
+    padding: 0px 640px;
+
+}
+
+.sec-3{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.wrap{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    padding: 0 500px;
+}
+
+.wrap-pic{
+
+    width: 275px;
+    height: 172px;
+    display: flex;
+    
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:2100px){
+
+    .wrap{
+
+        padding: 0 400px;
+    
     }
 
-    .mission-content{
+}
 
-        padding-top: 30px ;
+@media (max-width:1940px){
+
+    .wrap{
+
+        padding: 0 300px;
+    
+    }
+
+}
+
+
+@media (max-width:1740px){
+
+    .wrap{
+
+        padding: 0 200px;
+    
+    }
+}
+
+@media(max-width:1540px){
+    
+    .wrap{
+
+        padding: 0px 300px;
+    }
+
+    .wrap-pic{  
+        width: 206px;   /* rounded */
+        height: 129px;
+      }
+
+    .hadith{
+
+        padding: 0 440px;
+    }  
+}
+
+
+@media (max-width:1460px){
+
+    .wrap{
+
+        padding: 0 200px;
+    
+    }
+
+    .trnslte{
+
+        padding: 0px 300px;
+    }
+}
+
+@media (max-width:1266px){
+
+    .wrap{
+
+        padding: 0 100px;
+    }
+
+    .trnslte{
+
+        padding: 0px 300px;
+    }
+
+    .hadith{
+
+        padding: 0 100px;
+    }
+}
+
+
+@media (max-width:1070px){
+
+    .wrap{
+
+        padding: 0 0px;
+    
+    }
+
+}
+
+@media(max-width:865px){
+
+    .wrap-pic{
+        width: 206px;   /* rounded */
+        height: 129px;
+    }
+
+    .trnslte{
+
+        padding: 0 200px;
+    }
+}
+
+@media(max-width:570px){
+
+    .trnslte{
+
+        padding: 0 20px;
+
+    }
+
+    .hadith{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:330px){
+
+    .masjid-shape{
+
+        width: 240px;
+        height: 53px;
+    }
+}
+
+@media(min-width:1930px){
+
+
+    .wrap{
+
+        padding: 0 300px;
+    }
+}
+
+
+
+/* MAP */
+/* ################################ */
+
+
+.map-holder{
+
+    background-color: #0d6cac;
+}
+
+.map-content{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 12px;
+    padding-bottom: 27px;
+    max-width: 1920px;
+    margin: auto;
+
+}
+
+.location{
+
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47.6px;
+    text-transform: uppercase;
+    color: #E8F2F8;
+}
+
+
+@media (max-width:1230px){
+
+    .maps{
+
+        width: 977px;
+        height: 451px;
+
+}
+
+}
+
+
+@media (max-width:1030px){
+
+    .maps{
+
+        width: 869px;
+        height: 401px;
+}
+
+}
+
+
+
+@media (max-width:1030px){
+
+    .maps{
+
+       width: 760px;
+       height: 351px;
+
+}
+}
+
+
+@media (max-width:790px){
+
+    .maps{
+
+       width: 652px;
+       height: 301px;
+
+
+}
+}
+
+@media (max-width:680px){
+
+    .maps{
+
+       width: 433px;
+       height: 201px;
+}
+
+}
+
+
+@media (max-width:460px){
+
+    .maps{
+
+       width: 324px;
+       height: 151px;
+}
+
+}
+
+@media(max-width:350px){
+
+    .maps{  
+      width: 215px;
+      height: 101px
+    }
+
+    .location{
+
+        font-size: 24px;
+    }
+}
+
+
+
+/* FOOTER */
+/* ########################### */
+
+
+.footer-holder{
+
+    background-color: #E8F2F8;
+    background-image: url(./images/Home-page/background-footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.footer-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 42px 121px;
+    gap: 375px;
+    color: #0d6cac;
+    max-width: 1920px;
+    margin: auto;
+
+}
+
+.footer-left{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 101px;
+}
+
+.middle{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 14px;
+
+}
+
+.middle-item{
+
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.middle-item:nth-child(1){
+
+    color:#073D62;
+}
+
+.footer-right{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+
+.begging{
+
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 47.6px;
+}
+
+.footer-icon{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+.email{
+
+    font-weight: 600;
+    line-height: 27.2px;
+}
+
+.footer-btn{
+
+    padding: 8px 12px;
+    background-color: #0d6cac;
+    border-radius: 30px;
+    color:white ;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.footer-btn:hover{
+
+    color: #000000;
+    background-color: #FFCB00;
+    transition: 0.3s;
+}
+
+
+@media(max-width:1490px){
+
+
+    .footer-container{
+
+        padding: 42px 60px;
+    }
+}
+
+
+@media(max-width:1370px){
+
+
+    .footer-container{
+
+        padding: 42px 20px;
+        gap: 200px;
+    }
+}
+
+@media(max-width:950px){
+
+
+    .footer-container{
+
+        gap: 100px;
+    }
+}
+
+
+@media(max-width:740px){
+
+
+    .footer-container{
+
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
     }
 }
