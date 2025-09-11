@@ -882,6 +882,7 @@ display: none;
     width: 275px;
     height: 172px;
     display: flex;
+    cursor: pointer;
     
 }
 
