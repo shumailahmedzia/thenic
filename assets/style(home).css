@@ -1330,3 +1330,23 @@ display: none;
 
     
 }
+
+
+.scroll{
+
+    height: 34px;
+    width: 34px;
+    color: #E8F2F8;
+    background-color: #0d6cac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    border-radius:3px;
+    position: fixed;
+    bottom: 34px;
+    right: 34px;
+    cursor: pointer;
+    
+    
+}
