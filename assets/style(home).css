@@ -112,15 +112,22 @@ body {
     color: #0d6cac;
     padding: 40px;
     
+    
 }
 
 .bar-items{
 
     cursor: pointer;
+    font-weight: 600;
+    font-size: 21.17px;
 }
+
+
 .bar-items:hover {
     color: #FFCB00;
+    transition: 0.3s;
 }
+
 
 .cross {
     display: none;
@@ -131,7 +138,17 @@ body {
     cursor: pointer;
 }
 
+
+.bar-items:nth-child(1){
+
+    color: #FFCB00;
+}
+
+
+
+
 /* Active menu toggle styles */
+
 #menu-toggle:checked ~ .cross {
     display: block;
 }
@@ -143,6 +160,10 @@ body {
 #menu-toggle:checked ~ .bar {
     display: none;
 }
+
+
+
+
 
 /* NAV RESPONSIVE */
 @media (max-width: 1190px) {
@@ -1200,6 +1221,7 @@ display: none;
 .middle-item:hover{
 
     color: #073D62;
+    transition: 0.3s;
 }
 .middle-item:nth-child(1){
 
@@ -1349,4 +1371,13 @@ display: none;
     cursor: pointer;
     
     
+}
+
+
+@media(max-width:600px){
+
+    .scroll{
+
+        right: 10px;
+    }
 }
