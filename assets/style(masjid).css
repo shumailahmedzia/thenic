@@ -277,7 +277,7 @@ body {
 }
 
 
-@media (max-width:370px) {
+@media (max-width:720px) {
     .content{
     font-size: 24px;
     }
@@ -346,8 +346,10 @@ body {
 }
 
 
-.middle-sec{
 
+
+.middle-sec{
+    
     display: flex;
     align-items: center;
     
@@ -356,35 +358,35 @@ body {
 }
 
 .pic2{
-
+    
     width: 381px;
     height: 445px;
 } 
 
 .pic3{
-
+    
     width: 198px;
     height: 58px;
 }
 
 .sub2{
-
+    
     font-weight: 600;
     width: 478px;
     font-size: 21px;
     color: #E8F2F8;
-
+    
     
 }
 
 .yt1{
-
+    
     padding-top: 50px;
 }
 
 
 .last-sec{
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -393,7 +395,7 @@ body {
 
 
 .head-1{
-
+    
     font-weight: 700;
     font-size: 34px;
     line-height: 48px;
@@ -405,7 +407,7 @@ body {
 }
 
 .sub-1{
-
+    
     line-height: 27px;
     font-size: 16px;
     font-weight: 400;
@@ -414,7 +416,7 @@ body {
 
 
 .second{
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -423,20 +425,20 @@ body {
 }
 
 .yt-2{
-
+    
     width:448px;
     height:252px;
 }
 
 .second-1{
-
+    
     font-weight: 900;
     font-size: 40px;
     text-align: center;
 }
 
 .target{
-
+    
     font-weight: 500;
     font-size: 23px;
     line-height: 27px;
@@ -476,7 +478,7 @@ body {
 
 
 .dolla{
-
+    
     font-weight: 600;
     font-size: 42px;
     line-height: 50px;
@@ -486,12 +488,12 @@ body {
     
 }
 .progress-2{
-padding-right: 36px;
+    padding-right: 36px;
 }
 
 .progress, .progress-2{
-
-
+    
+    
     font-weight: 600;
     font-size: 21px;
     line-height: 0px;
@@ -499,7 +501,7 @@ padding-right: 36px;
 }
 
 .animation{
-
+    
     background-color: #E8F2F8;
     width: 840px;
     height: 28px;
@@ -509,7 +511,7 @@ padding-right: 36px;
 }
 
 .fill{
-
+    
     background-color: #FFCB00;
     animation: fillbar ease 4s forwards;
     height: 28px;
@@ -519,22 +521,27 @@ padding-right: 36px;
 
 
 @keyframes fillbar{
-
+    
     from{
         width: 0;
-
+        
     }
-
+    
     to{
-
+        
         width: 44%;
     }
 }
 
 
 
-.mission-btn{
 
+
+
+
+
+.mission-btn{
+    
     
     border: #FFCB00 2px solid;
     border-radius: 30px;
@@ -556,6 +563,199 @@ padding-right: 36px;
     transition: 0.3s;
     border: 2;
 }
+
+
+
+@media(max-width:1160px){
+    
+    
+    .section-container{
+        
+        transform: scale(0.9);
+        padding: 5px;
+        
+    }
+    
+    
+}
+
+@media(max-width:1070px){
+
+
+.pic, .yt1{
+    
+        width: 495px;
+        height: 297px;
+
+    }
+
+    .pic2{
+
+        width: 343px;
+        height: 401px;
+    }
+
+}
+
+@media(max-width:990px){
+
+    .pic, .yt1{
+
+       width: 385px;
+       height: 231px;
+    }
+
+    .pic2{
+
+        width: 267px;
+        height: 312px;
+    }
+
+    
+.sub-1 {
+
+    width: 703px;
+}
+
+.sub{
+
+    width: 500px;
+    line-height: 20px;
+}
+
+.sub2{
+
+        width: 378px;
+        font-size: 14px;
+}
+
+}
+
+
+
+
+@media(max-width:850px){
+
+    .sub{
+
+        width:400px ;
+        font-size: 13px;
+    }
+
+    .pic3{
+        display: none;
+    }
+}
+
+@media(max-width:770px){
+
+    .upper{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+    }
+
+    .upper-left{
+
+        align-items: center;
+    }
+
+    .middle-sec{
+
+        flex-direction: column;
+    }
+
+    .sub{
+
+        font-size: 16px;
+    }
+
+    .sub:nth-child(2){
+
+        font-size: 13px
+    }
+
+    .animation{
+
+        width: 440px;
+    }
+
+    .sub-1{
+
+        font-size: 12px;
+        width: 500px;
+    }
+
+    .head{
+
+        font-size: 26px;
+    }
+
+    .head-1{
+
+        font-size: 26px;
+    }
+
+    .second-1{
+
+        font-size: 26px;
+    }
+
+    .target{
+
+        font-size: 16px;
+        width: 400px;
+    }
+
+    .number{
+
+        gap: 40px;
+     }
+
+     .number-2{
+
+        gap:100px;
+     }
+
+     .section-container{
+     
+         text-align: center;
+     }
+}
+
+
+@media (max-width:470px){
+
+    .sub-1{
+        line-height: 20px;
+        font-size: 14px;
+        width: 350px;
+    }
+
+    .yt-2{
+      width: 314px;
+      height: 177px;
+    }
+
+    .animation{
+
+        width: 280px;
+    }
+
+    .dolla{
+
+        font-size: 30px;
+    }
+
+    .progress, .progress-2{
+
+        font-size: 14px;
+    }
+
+}
+
+
 
 
 
