@@ -327,7 +327,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    gap: 2px;
 }
 
 .head, .head-1, .head-2{
@@ -442,9 +442,7 @@ ol{
 @media(max-width:1120px){
 
 
-    *{
-        font-size: 1.6vw;
-    }
+
    .section-container{
 
     padding: 20px 20px;
@@ -469,26 +467,111 @@ ol{
 
     .pic{
 
-        width: 330px;
-height: 198px;
+        width: 310px;
+        height: 198px;
+
     }
 
     .sub{
 
         width: 400px;
+        font-size: 1.5vw;
     }
     .upper{
 
         display: flex;
-        justify-content: center;
-        align-items: center;
+        ;
     }
 
     .head, .head-1, .head-2{
 
         font-size: 2vw;
     }
+    
 }
+
+
+@media(max-width:834px){
+
+    
+    .header-speaker{
+
+        width: 300px;
+    }
+}
+
+@media(max-width:768px){
+
+
+    *{
+        
+        
+    }
+    .upper{
+        
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .pic{
+        
+        order: 1;
+        width: 100%;
+        height: auto;
+    }
+    
+    .upper-left{
+        
+        width: 100%;
+    }
+    
+    .sub{
+        
+        width: 100%;
+        font-size:3vw;
+        height: auto;
+    }
+
+    .head, .head-1, .head-2{
+
+        
+
+        font-size: 5vw;
+    }
+
+    .speaker{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .speaker-left{
+
+        width: 100%;
+    }
+
+    .header-speaker{
+
+        width: 100%;
+    }
+
+    .sub-speaker{
+
+        font-size: 4vw;
+    }
+
+    .under-sub, .sub-sub, li{
+
+        font-size: 3vw;
+    }
+
+    .section-container{
+
+        gap: 40px;
+    }
+    
+}
+
 
 
 
