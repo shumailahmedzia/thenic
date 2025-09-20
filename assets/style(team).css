@@ -247,6 +247,208 @@ body {
 
 
 
+/* HERO */
+/* ###########################3 */
+
+
+
+.hero-holder{
+    
+    background-color: #0d6cac;
+    background-image: url("./images/Home-page/Back-ground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero{
+    
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 186px 0px;
+    margin: auto;
+}
+
+.content{
+    
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 78.4px;
+    text-transform: uppercase;
+    color: #E8F2F8;
+}
+
+
+@media (max-width:720px) {
+    .content{
+    font-size: 24px;
+    }
+    
+}
+
+
+
+
+
+
+
+/* SECTION */
+/* ##########################3 */
+
+.section-holder{
+
+    background-color: #0d6cac;
+}
+
+
+.section-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0px;
+    gap: 124px;
+}
+
+.upper{
+
+    display: flex;
+    flex-direction: column;
+    width: 1111px;
+    color: #E8F2F8;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+
+    color: #FFCB00;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47px;
+}
+
+.pic-container .sub, .down{
+
+    font-weight: 600;
+    font-size: 24px;
+    color: #E8F2F8;
+    line-height: 27px;
+    text-align: center;
+    margin: 0px
+
+}
+
+.pic-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.pic-container .down{
+
+    color: #FFCB00;
+}
+
+
+.pictures-waqf{
+
+    display: flex;
+    gap: 68px;
+    justify-content: center;
+}
+
+
+
+.head{
+
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    text-align: center;
+}
+
+.members{
+
+    display: flex;
+}
+
+.pic-board{
+
+    display: flex;
+    gap: 50px;
+    
+}
+
+.second-pic{
+
+    gap: 100px;
+    
+}
+
+.head{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pres .small{
+
+    font-size: 20px;
+}
+
+.second{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.row-2{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 206px;
+    /* padding-right: 77px; */
+    padding-top: 47px;
+    padding-bottom: 47px;
+
+}
+
+/* .space{ */
+    /* width: 170px; */
+    /* text-align: right; */
+/* } */
+
+.row-3{
+
+    display: flex;
+    gap: 160px;
+}
+
+
+
+
+
+
+
+
 
 
 
