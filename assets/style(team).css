@@ -428,13 +428,12 @@ body {
     /* padding-right: 77px; */
     padding-top: 47px;
     padding-bottom: 47px;
+    
 
 }
 
-/* .space{ */
-    /* width: 170px; */
-    /* text-align: right; */
-/* } */
+
+
 
 .row-3{
 
@@ -442,6 +441,19 @@ body {
     gap: 160px;
 }
 
+
+@media(max-width:1120px){
+
+
+    .upper{
+
+        width: 100%;
+    }
+
+   
+
+
+}
 
 
 
