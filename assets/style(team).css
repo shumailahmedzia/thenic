@@ -245,7 +245,9 @@ body {
 
 
 
-
+.white{
+    height: 1px;
+}
 
 /* HERO */
 /* ###########################3 */
@@ -450,8 +452,34 @@ body {
         width: 100%;
     }
 
-   
 
+}
+
+@media(max-width:1030px){
+
+    .pictures-waqf{
+
+        
+        gap: 10px;
+    }
+
+    .row-2{
+
+        gap: 20px;
+    }
+
+    .pic-board, .row-3{
+
+        gap: 10px;
+    }
+}
+
+@media(max-width:780px){
+
+
+    .pictures-waqf, .pic-board, .row-2, .row-3{
+        flex-direction: column;
+    }
 
 }
 
